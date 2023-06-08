@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateau Echec</title>
+    <style>
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+        }
+
+        section div {
+            box-sizing: border-box;
+            width: 50px;
+            height: 50px;
+        }
+
+        section div:nth-child(even) {
+            background-color: #eee;
+        }
+
+        section div:nth-child(odd) {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <!-- First row -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        
+        <!-- Second row -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        
+        <!-- Third row -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        
+        <!-- Remaining rows -->
+        <!-- ... -->
+    </section>
+</body>
+</html>
