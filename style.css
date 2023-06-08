@@ -7,31 +7,45 @@ body section div{
 
 section{
     display: flex;    
+
 }
+
 
 body section div:nth-child(1) div:nth-child(even){
-    background: black;
+    background: grey;
 }
 body section div:nth-child(2) div:nth-child(odd){
-    background: black;
+    background: grey;
 }
 body section div:nth-child(3) div:nth-child(even){
-    background:black;
+    background:grey;
 }
 body section div:nth-child(4) div:nth-child(odd){
-    background:black;
+    background: grey;
 }
 body section div:nth-child(5) div:nth-child(even){
-    background:black;
+    background:grey;
 }
 body section div:nth-child(6) div:nth-child(odd){
-    background:black;
+    background:grey;
 }
 body section div:nth-child(7) div:nth-child(even){
-    background:black;
+    background:grey;
 }
 body section div:nth-child(8) div:nth-child(odd){
-    background:black;
+    background:grey;
 } 
 
+div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    object-fit: contain;
+    width: 40%;
+    height: 40%;
+
+}
 
